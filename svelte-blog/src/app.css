@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default-font: "Nunito Sans Variable", sans-serif;
+  --alt-font: "Raleway Variable", sans-serif;
+  --base-bg: #f8fbff;
+
+  --primary--deep-dark: hsla(228, 91.5%, 27.8%, 1);
+  --primary--dark: hsla(227, 78.6%, 45.9%, 1);
+  --primary--default: hsla(226, 92.4%, 58.6%, 1);
+}
