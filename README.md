@@ -1,6 +1,8 @@
 # Svelte Blog
 
-Welcome to Svelte Blog, an example of a simple yet visually appealing blog created with Svelte. This project utilizes markdown files for articles and integrates Tailwind CSS for styling.
+Welcome to Svelte Blog, an example of a simple yet visually appealing blog created with [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/). This project utilizes markdown files for articles and integrates Tailwind CSS for styling.
+
+The idea is to have the simplest blog possible, where one article = one file.
 
 ![Image](https://github.com/AdrienLF/svelte-blog/blob/main/Blog%20page%20screenshot.png)
 ![Image](https://github.com/AdrienLF/svelte-blog/blob/main/Article%20page.png)
@@ -28,6 +30,21 @@ The main functionality can be found at the `route/blog` route and within the `li
 - `svelte-blog/src/lib/assets/components/blog/BlogList.svelte`: Displays links to articles on the article page.
 - `svelte-blog/src/routes/blog/+layout.svelte`: Contains a simple header for the blog layout.
 - `svelte-blog/src/routes/blog/+page.svelte`: Renders articles with a customizable style.
+
+## Markdown File Structure
+
+To add new articles to your Svelte Blog, follow the structure provided below in your Markdown files:
+
+```markdown
+---
+title: Post Title
+date: "YYYY-MM-DD"
+slug: unique-slug-for-the-post
+preview: Brief preview of the article.
+previewImage: URL-to-preview-image
+quote: "A catchy quote from the article."
+---
+```
 
 ## Contributing
 
