@@ -4,6 +4,8 @@ Welcome to Svelte Blog, an example of a simple yet visually appealing blog creat
 
 The idea is to have the simplest blog possible, where one article = one file.
 
+**You can see a live version of this blog here: [ICONO blog](https://www.icono-search.com/blog)**
+
 ![Image](https://github.com/AdrienLF/svelte-blog/blob/main/Blog%20page%20screenshot.png)
 ![Image](https://github.com/AdrienLF/svelte-blog/blob/main/Article%20page.png)
 ## Requirements
